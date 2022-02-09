@@ -34,12 +34,6 @@ a.navbar-brand img {
  h4.purple {
      padding-left: 16px;
 }
-/* #mainNav.navbar-shrink {
-     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-     background-color: #333;
-     display: none;
-}
- */
  nav#mainNav {
      background: transparent;
      position: absolute;
@@ -77,7 +71,7 @@ a.navbar-brand img {
 }
 /* carousel */
 .carousel-wrap {
-  width: 1000px;
+  width: 90%;
   margin: auto;
   position: relative;
 }
