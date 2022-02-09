@@ -1,86 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 body {
-    font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 a {
-  color: #444;
-  text-decoration: none;
+color: #444;
+text-decoration: none;
 }
 a:hover {
-  color: #222;
+color: #222;
 }
 a.fale-conosco {
-  background: red;
-  border-radius: 24px;
-}
-header.masthead {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    background: url(assets/img/banner.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+background: #85D4FF;
+border-radius: 24px;
 }
 h6 {
-  color: #A0AEC0;
+color: #A0AEC0;
 }
 h6:before {
-    content: "|";
-    margin-right: 4px;
-    font-weight: bold;
-    color: #B882FE;
+content: "|";
+margin-right: 4px;
+font-weight: bold;
+color: #B882FE;
 }
 .purple {
-  color: #B882FE;
+color: #B882FE;
+}
+h4.purple {
+padding-left: 16px;
 }
 #mainNav.navbar-shrink {
-    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #333; */
-    display: none;
-  }
-  header.masthead {
-    padding: 15rem 0;
-    background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%), url("assets/img/banner.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-
-  footer {
-    background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
-  }
-  .sobre-nos img {
-    background: #fff;
-    width: 500px;
-    height: 300px;
-    display: block;
-    margin-bottom: 1rem;
-    border-radius: 8px;
+/* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+background-color: #333; */
+display: none;
+}
+header.masthead {
+padding: 15rem 0;
+background: url("assets/img/banner.png");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+}
+footer {
+background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
+}
+.sobre-nos img {
+background: #fff;
+width: 500px;
+height: 300px;
+display: block;
+border-radius: 8px;
 }
 .para-quem, .missao, .clientes {
-  background-color: #F5FCFF;
+background-color: #F5FCFF;
 }
 .para-quem h5:after {
-  content: "\f178";
-  font: var(--fa-font-solid);
-  float: right;
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #A0AEC0;
-  padding: 8px;
+content: "\f178";
+font: var(--fa-font-solid);
+float: right;
+display: flex;
+flex-direction: row;
+border: 1px solid #A0AEC0;
+padding: 8px;
 }
-
 ul.social, ul.contact {
-  display: flex;
-  list-style: none;
-}
-ul.social li {
-  margin-right: 16px;
+display: flex;
+list-style: none;
+align-items: center;
 }
 footer .row {
-  height: 65.94px;
-  align-items: end;
+height: 80px;
+align-items: flex-end;
 }
