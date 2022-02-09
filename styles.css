@@ -47,7 +47,7 @@ a.navbar-brand img {
 }
  header.masthead {
      padding: 15rem 0;
-     background: linear-gradient(0deg, rgba(24, 24, 24, 0.3), rgba(22, 22, 22, 0.3)), url(assets/img/banner.jpg);
+     background: url(assets/img/banner.jpg);
      background-position: center;
      background-repeat: no-repeat;
      background-attachment: scroll;
