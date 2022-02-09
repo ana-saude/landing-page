@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: url(assets/img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+h6:before {
+    content: "|";
+    margin-right: 4px;
+    font-weight: bold;
+    color: #fff;
+}
+.sobre-nos {
+    background: linear-gradient(180deg, #B882FE 0%, #818EFF 100%);
+}
+#mainNav.navbar-shrink {
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #333; */
+    display: none;
+  }
+  header.masthead {
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%), url("assets/img/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  footer {
+    background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
+  }
+  .sobre-nos img {
+    background: #fff;
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+.clientes {
+    background-color: #ddd;
+}
+
