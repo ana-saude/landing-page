@@ -1,74 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body {
-font-family: 'Poppins', sans-serif;
+ body {
+     font-family: 'Poppins', sans-serif;
 }
-a {
-color: #444;
-text-decoration: none;
+a.navbar-brand img {
+    width: 180px;
 }
-a:hover {
-color: #222;
+ a {
+    color: #444;
+    text-decoration: none;
 }
-a.fale-conosco {
-background: #85D4FF;
-border-radius: 24px;
+ a:hover {
+    color: #222;
 }
-h6 {
-color: #A0AEC0;
+ a.fale-conosco {
+    background: #85D4FF;
+    border-radius: 24px;
+    padding: 8px 16px!important;
 }
-h6:before {
-content: "|";
-margin-right: 4px;
-font-weight: bold;
-color: #B882FE;
+ a.active {
+     text-decoration: underline;
 }
-.purple {
-color: #B882FE;
+ h6 {
+     color: #888;
 }
-h4.purple {
-padding-left: 16px;
+ h6:before {
+     content: "|";
+     margin-right: 4px;
+     font-weight: bold;
+     color: #B882FE;
 }
-#mainNav.navbar-shrink {
-/* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-background-color: #333; */
-display: none;
+ .purple {
+     color: #B882FE;
 }
-header.masthead {
-padding: 15rem 0;
-background: url("assets/img/banner.png");
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
+ h4.purple {
+     padding-left: 16px;
 }
-footer {
-background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
+/* #mainNav.navbar-shrink {
+     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+     background-color: #333;
+     display: none;
 }
-.sobre-nos img {
-background: #fff;
-width: 500px;
-height: 300px;
-display: block;
-border-radius: 8px;
+ */
+ nav#mainNav {
+     background: transparent;
+     position: absolute;
+     width: 100%;
 }
-.para-quem, .missao, .clientes {
-background-color: #F5FCFF;
+ header.masthead {
+     padding: 15rem 0;
+     background: linear-gradient(0deg, rgba(24, 24, 24, 0.3), rgba(22, 22, 22, 0.3)), url(assets/img/banner.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-size: cover;
 }
-.para-quem h5:after {
-content: "\f178";
-font: var(--fa-font-solid);
-float: right;
-display: flex;
-flex-direction: row;
-border: 1px solid #A0AEC0;
-padding: 8px;
+ .sobre-nos img {
+     background: #fff;
+     width: 500px;
+     height: 300px;
+     display: block;
+     border-radius: 8px;
 }
-ul.social, ul.contact {
-display: flex;
-list-style: none;
-align-items: center;
+ .para-quem, .missao, .clientes {
+     background-color: #F5FCFF;
 }
-footer .row {
-height: 80px;
-align-items: flex-end;
+ .para-quem h5:after {
+     content: "\f178";
+     font: var(--fa-font-solid);
+     float: right;
+     display: flex;
+     flex-direction: row;
+     border: 1px solid #A0AEC0;
+     padding: 8px;
+}
+ footer {
+     background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
+}
+/* carousel */
+.carousel-wrap {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+.owl-carousel .owl-nav{
+  overflow: hidden;
+  height: 0px;
+}
+
+.owl-carousel .item {
+    text-align: center;
+}
+.owl-carousel .nav-btn{
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 100px !important;
+}
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+  pointer-events: none;
+  opacity: 0.2;
+}
+.owl-carousel .prev-slide{
+    background: url(assets/img/prev.svg) no-repeat scroll 0 0;
+    background-size: 50%;
+    background-position: center;
+    left: -33px;
+    top: 33%!important;
+  }
+.owl-carousel .next-slide{
+    background: url(assets/img/next.svg) no-repeat scroll -24px 0px;
+    background-size: 50%;
+    background-position: center;
+    right: -33px;
+    top: 33%!important;
+  }
+span.img-text {
+  text-decoration: none;
+  outline: none;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  cursor: pointer;
+  width: 100%;
+  font-size: 23px;
+  display: block;
+  text-transform: capitalize;
+}
+span.img-text:hover {
+  color: #2caae1;
 }
