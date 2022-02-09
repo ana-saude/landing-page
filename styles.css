@@ -21,6 +21,7 @@ a.navbar-brand img {
 }
  h6 {
      color: #888;
+     font-size: 12px;
 }
  h6:before {
      content: "|";
@@ -31,8 +32,8 @@ a.navbar-brand img {
  .purple {
      color: #B882FE;
 }
- h4.purple {
-     padding-left: 16px;
+ h3.purple {
+     padding-left: 8px;
 }
  nav#mainNav {
      background: transparent;
@@ -69,6 +70,14 @@ a.navbar-brand img {
  footer {
      background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
 }
+footer .col-lg-3 {
+  align-items: center;
+  display: flex;
+}
+footer i {
+  font-size: 24px!Important;
+}
+
 /* carousel */
 .carousel-wrap {
   width: 90%;
@@ -121,7 +130,4 @@ span.img-text {
   font-size: 23px;
   display: block;
   text-transform: capitalize;
-}
-span.img-text:hover {
-  color: #2caae1;
 }
