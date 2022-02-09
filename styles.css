@@ -70,6 +70,9 @@ a.navbar-brand img {
  footer {
      background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
 }
+.copyright {
+  background-color: #818EFF;
+}
 footer .col-lg-3 {
   align-items: center;
   display: flex;
