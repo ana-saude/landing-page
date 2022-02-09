@@ -12,7 +12,7 @@ a.navbar-brand img {
     color: #222;
 }
  a.fale-conosco {
-    background: #85D4FF;
+    background: #818EFF;
     border-radius: 24px;
     padding: 8px 16px!important;
 }
@@ -46,7 +46,7 @@ span.subtitle:before {
  header.masthead {
      padding: 15rem 0;
      background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(assets/img/banner.jpg);
-     background-position: center;
+     background-position: bottom;
      background-repeat: no-repeat;
      background-attachment: scroll;
      background-size: cover;
@@ -74,6 +74,9 @@ span.subtitle:before {
   background: #818EFF;
   border-radius: 8px;
   color: #fefefe;
+}
+.para-quem i:hover {
+  color: #818EFF!important;
 }
  footer {
      background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
