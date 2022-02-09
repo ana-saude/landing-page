@@ -59,16 +59,21 @@ span.subtitle:before {
      border-radius: 8px;
 }
  .para-quem, .missao, .clientes {
-     background-color: #F5FCFF;
+     background-color: #CEEEFF;
 }
- .para-quem h5:after {
-     content: "\f178";
-     font: var(--fa-font-solid);
-     float: right;
-     display: flex;
-     flex-direction: row;
-     border: 1px solid #A0AEC0;
-     padding: 8px;
+.text-gray {
+  color: #555;
+}
+.para-quem h5:after {
+  content: "\f178";
+  font: var(--fa-font-solid);
+  float: right;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  background: #818EFF;
+  border-radius: 8px;
+  color: #fefefe;
 }
  footer {
      background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
