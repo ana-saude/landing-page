@@ -54,7 +54,7 @@ nav#mainNav {
 } */
 header.masthead {
   padding: 15rem 0;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0.3)), url(assets/img/banner.jpg);
+  background: url(assets/img/banner.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -149,11 +149,14 @@ footer i:hover {
     border-radius: 8px;
   }
   .w-50 {
-    width: 75%!important;
+    width: 80%!important;
   }
   header.masthead {
     background-position: inherit;
     padding: 8rem 0;
+  }
+  h5.pb-3 {
+    font-size: 16px;
   }
 }
 
