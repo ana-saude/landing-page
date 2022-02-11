@@ -70,6 +70,16 @@ header.masthead {
 .text-gray {
   color: #555;
 }
+.imprensa .col-lg-2 img:hover {
+  box-shadow: 4px 4px 8px -4px #444;
+}
+section.missao {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 0 32px;
+  box-shadow: 4px 4px 8px -4px #ccc;
+}
 .para-quem, .missao, .clientes {
   background-color: #CEEEFF;
 }
@@ -122,7 +132,6 @@ footer i:hover {
   background-color: #444;
  ;
 }
-
 .sobre-nos .col-lg-6.col-sm-12 img {
   max-width: 100%;
 }
@@ -161,6 +170,9 @@ footer i:hover {
   }
   .masthead .container {
     padding-top: 3rem;
+  }
+  section.missao.pt-5.pb-5 {
+    padding: 0 8px;
   }
 }
 /* carousel */
