@@ -55,10 +55,10 @@ nav#mainNav {
 header.masthead {
   padding: 15rem 0;
   background: url(assets/img/banner.jpg);
-  background-position: bottom;
+  background-position: left;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: 116%;
 }
 .sobre-nos img {
   background: #fff;
