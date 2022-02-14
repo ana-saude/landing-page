@@ -54,7 +54,7 @@ nav#mainNav {
 } */
 header.masthead {
   padding: 15rem 0;
-  background: url(./img/banner.jpg);
+  background: url(./img/clinicas.jpg);
   background-position: left;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -80,7 +80,7 @@ section.missao {
   padding: 0 32px;
   box-shadow: 4px 4px 8px -4px #ccc;
 }
-.para-quem, .missao, .clientes {
+.para-quem, .missao, .clientes, .content {
   background-color: #CEEEFF;
 }
 .para-quem h5:after {
@@ -97,8 +97,69 @@ section.missao {
 .para-quem i:hover {
   color: #818EFF!important;
 }
+.btn-honco {
+  color: #fff;
+  background-color: #B882FE;
+  border-color: #B882FE;
+}
 footer {
-  background: linear-gradient(to bottom, #B882FE 0%, #818EFF 100%);
+  background: #000;
+}
+footer ul.links li a {
+  color: #fff;
+}
+footer p {
+  font-size: 12px;
+}
+footer ul li {
+  font-size: 14px;
+  padding-right: 24px;
+  text-decoration: underline;
+}
+footer ul.social li {
+  padding: 0 96px;
+  padding-left: 0;
+}
+footer .d-flex > h5 {
+  width: 65%;
+}
+footer span.ans {
+  width: 24%;
+  float: right;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 4px;
+}
+footer button.scnd {
+  float: right;
+  background: transparent;
+}
+footer button.scnd:hover {
+  background: #B882FE;
+}
+footer .btn {
+  border-radius: 100px;
+}
+footer span.address {
+  font-size: 12px;
+  font-weight: 400;
+  width: 70%;
+  float: left;
+  margin-right: 2rem;
+}
+button.btn.btn-contato {
+  background: #85D4FF;
+  font-size: 12px;
+  font-weight: 600;
+}
+.footer-link {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #fff;
+  float: right;
+}
+.footer-link:hover {
+  color: #eeeeee;
 }
 footer h6:after {
   content: "";
@@ -107,11 +168,6 @@ footer h6:after {
   height: 4px;
   background: #85D4FF;
   margin: 4px 0;
-}
-button.btn.btn-contato {
-  background: #85D4FF;
-  font-size: 12px;
-  font-weight: 600;
 }
 footer span {
   font-size: 18px;
@@ -123,14 +179,14 @@ footer .col-lg-3 {
   display: flex;
 }
 footer i {
-  font-size: 32px!Important;
+  font-size: 24px!Important;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 16px;
+  border-color: hsla(0, 0%, 40%, 0.5);
 }
 footer i:hover {
   color: #85D4FF;
-}
-.copy {
-  background-color: #444;
- ;
 }
 .sobre-nos .col-lg-6.col-sm-12 img {
   max-width: 100%;
@@ -139,7 +195,6 @@ footer i:hover {
 .mobile {
   display: none;
 }
-
 .desktop {
   display: block;
 }
