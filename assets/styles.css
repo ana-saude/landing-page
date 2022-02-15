@@ -29,6 +29,7 @@ p {
 span.subtitle {
   color: #888;
   font-size: 12px;
+  text-transform: uppercase;
 }
 span.subtitle:before {
   content: "|";
@@ -47,11 +48,6 @@ nav#mainNav {
   position: absolute;
   width: 100%;
 }
-/* #mainNav.navbar-shrink {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #333;
-  display: none;
-} */
 header.masthead {
   padding: 15rem 0;
   background: url(./img/banner.jpg);
@@ -60,10 +56,18 @@ header.masthead {
   background-attachment: scroll;
   background-size: 116%;
 }
+.bg-honco-software {
+    background: url(./img/honco-software.jpg);
+    background-size: cover;
+    border-radius: 16px;
+}
+.bg-honco-consulting {
+  background: url(./img/honco-consulting.jpg);
+  background-size: cover;
+  border-radius: 16px;
+}
 .sobre-nos img {
   background: #fff;
-  width: 500px;
-  height: 300px;
   display: block;
   border-radius: 8px;
 }
@@ -74,13 +78,13 @@ header.masthead {
   box-shadow: 4px 4px 8px -4px #444;
 }
 section.missao {
-  width: 90%;
+  width: 93%;
   margin: 0 auto;
   border-radius: 16px;
   padding: 0 32px;
   box-shadow: 4px 4px 8px -4px #ccc;
 }
-.para-quem, .missao, .clientes, .content {
+.missao, .content, .bg-blue {
   background-color: #CEEEFF;
 }
 .para-quem h5:after {
@@ -191,6 +195,9 @@ footer i:hover {
 .sobre-nos .col-lg-6.col-sm-12 img {
   max-width: 100%;
 }
+input, textarea#mensagem {
+  border-radius: 16px!important;
+}
 
 .mobile {
   display: none;
@@ -198,6 +205,26 @@ footer i:hover {
 .desktop {
   display: block;
 }
+
+
+/* cards */
+.card {
+  border: none;
+  background-color: transparent;
+}
+h5.card-title {
+  text-align: center;
+}
+p.card-text {
+  font-size: 16px;
+  text-align: center;
+}
+.card-img-top {
+  width: 25%;
+  margin: 0 auto;
+}
+
+
 @media screen and (max-width: 600px) {
   .mobile {
     display:block;
