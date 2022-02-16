@@ -34,6 +34,10 @@ p {
 	text-align: justify;
 }
 
+button {
+    border-radius: 40px!important;
+}
+
 span.subtitle {
 	color: #888;
 	font-size: 12px;
@@ -362,6 +366,10 @@ span.img-text {
 	text-align: left;
 	margin-top: 16px;
 	font-size: 14px;
+}
+.quem-somos img {
+	width: 100px;
+	height: auto;
 }
 
 /* quemsomoscarousel */
