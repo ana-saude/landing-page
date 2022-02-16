@@ -70,8 +70,9 @@ header.home {
 	background-position: center;
 }
 header.clinicas {
-	background: url(./img/clinicas.jpg);
-	background-size: cover;
+    background: url(./img/clinicas.jpg);
+    background-size: 120%;
+    background-position-y: -70px;
 }
 header.hospitais {
     background: url(./img/hospitais.jpg);
